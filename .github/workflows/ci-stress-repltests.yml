@@ -69,7 +69,7 @@ jobs:
         
         cd proxysql_repl_tests
         #./exec_repl_test.sh 5.7 no-ssl debezium
-        ./exec_stress_repl_tests.sh 2
+        ./exec_stress_repl_tests.sh 10
         RC=$?
         
         #./docker-compose-destroy.bash
