@@ -37,7 +37,7 @@ jobs:
       uses: actions/checkout@v3
       with:
         repository: 'proxysql/jenkins-build-scripts'
-        ref: 'proxysql_repl_tests'
+        ref: 'stress_proxysqlrepl_tests'
         fetch-depth: 0
         path: 'jenkins-build-scripts'
         token: ${{ secrets.GH_TOKEN }}
